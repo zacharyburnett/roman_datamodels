@@ -34,6 +34,11 @@ __all__ = [
     "NODE_CLASSES",
     "CalLogs",
     "FileDate",
+    "DNode",
+    "LNode",
+    "TaggedObjectNode",
+    "TaggedListNode",
+    "TaggedScalarNode",
 ]
 
 
@@ -210,7 +215,7 @@ class DNode(UserDict):
         Returns a dictionary of all of the schema items as a flat dictionary.
 
         Each dictionary key is a dot-separated name.  For example, the
-        schema element `meta.observation.date` will end up in the
+        schema element ``meta.observation.date`` will end up in the
         dictionary as::
 
             { "meta.observation.date": "2012-04-22T03:22:05.432" }
