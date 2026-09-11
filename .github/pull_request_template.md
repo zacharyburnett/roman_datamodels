@@ -17,7 +17,7 @@ This change ...
 - [ ] Update or add relevant `roman_datamodels` tests.
 - [ ] Update relevant docstrings and / or `docs/` page.
 - [ ] Does this PR change user-facing code / API? (if not, label with `no-changelog-entry-needed`)
-  - [ ] write news fragment(s) in `changes/`: `echo "changed something" > changes/<PR#>.<changetype>.rst` (see [changelog readme](https://github.com/spacetelescope/roman_datamodels/blob/main/changes/README.rst) for instructions)
+  - [ ] write news fragment(s) in `changes/`: `echo "changed something" > changes/<PR#>.<changetype>.rst` (see [changelog readme](../changes/README.rst) for instructions)
   - [ ] Start a `romancal` regression test (https://github.com/spacetelescope/RegressionTests/actions/workflows/romancal.yml) with this branch installed (`"git+https://github.com/<fork>/rad@<branch>"`).
 
 ## Generative AI Usage Disclosure
